@@ -1,9 +1,18 @@
 import './App.css';
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from "react-router-dom";
 
-const App = () => {
+import { FunctionComponent } from "react";
+
+const App : FunctionComponent = () => {
   return (
       <div>
+            <Router>
 
+            </Router>
       </div>
   );
 }
